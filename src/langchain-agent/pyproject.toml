@@ -1,0 +1,26 @@
+[project]
+name = "learning-agent"
+version = "0.1.0"
+description = "前端开发者边学边练的 Agent 入门项目"
+requires-python = ">=3.11"
+dependencies = [
+    # 学习阶段主要用 LangGraph + LangChain 官方
+    "langgraph>=1.0.8",
+    "langchain>=1.2.7,<2.0.0",
+    "langchain-core>=1.2.27,<2.0.0",
+    "langchain-openai>=1.0.0",
+    # 里程碑 4 之后用
+    "fastapi[standard]>=0.116.1",
+    "uvicorn>=0.35.0",
+    # 里程碑 6 之后用
+    "langgraph-checkpoint-sqlite>=2.0.10",
+    # 里程碑 5 之后用
+    "pydantic>=2.11.7",
+    # 工具库
+    "python-dotenv>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.4",
+]
