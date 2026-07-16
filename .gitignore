@@ -1,0 +1,34 @@
+# ---- Secrets / Environment variables ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Logs / Data ----
+*.log
+*.csv
+flagged/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS / Editor ----
+.DS_Store
+.idea/
+.vscode/

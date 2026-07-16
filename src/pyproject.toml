@@ -1,0 +1,14 @@
+[project]
+name = "src-dependecy"
+version = "0.1.0"
+description = "描述"
+requires-python = ">=3.11"
+dependencies = [
+ "torch>=2.13.0",
+ "transformers>=5.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.4",
+]
