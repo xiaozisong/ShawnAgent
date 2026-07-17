@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "描述"
 requires-python = ">=3.11"
 dependencies = [
+ "google-search-results>=2.4.2",
+ "load-dotenv>=0.1.0",
+ "openai>=2.45.0",
  "torch>=2.13.0",
  "transformers>=5.14.1",
 ]
